@@ -19,6 +19,8 @@ Person.prototype.calculateAge = function () {
     console.log(2016 - this.yearOfBirth);
 }
 
+Person.prototype.lastName = "Smith";
+
 // Created John using Function Constructor
 var john = new Person('John', 1990, 'Teacher');
 var jane = new Person('Jane', 1996, 'Designer');
@@ -27,3 +29,7 @@ var mark = new Person('Mark', 1998, 'Retired');
 john.calculateAge();
 jane.calculateAge();
 mark.calculateAge();
+
+// Sean Testing Pull
+
+console.log(john.lastName);
