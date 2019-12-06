@@ -31,5 +31,6 @@ jane.calculateAge();
 mark.calculateAge();
 
 // Sean Testing Pull
+// Sean Testing Push from Macbook
 
 console.log(john.lastName);
